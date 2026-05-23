@@ -17,7 +17,6 @@ pinned: false
 An open-source AI-powered investigation platform that identifies suspects and fraud patterns in seconds using **Face Recognition**, **Voice Detection**, **NER**, **Sanctions Database**, **Panama Papers**, and **Knowledge Graph**.
 
 ---
-
 ## 🚀 Key Features
 
 | Module | Technology | Performance |
@@ -25,8 +24,9 @@ An open-source AI-powered investigation platform that identifies suspects and fr
 | **Face Recognition** | ArcFace ResNet100 (fine-tuned on MS1M-refine-v2) | LFW F1 = 0.993 |
 | **Voice Detector** | ECAPA-TDNN (Hindi + English) | VoxCeleb1 F1 = 0.95 |
 | **NER Model** | DeBERTa-v3 (21+ entity types) | FinCEN F1 = 0.9997 |
+| **Epstein Files** | Investigative NER + Knowledge Graph (352 nodes, 2611 edges) | Full email network & Panama connections |
 | **Sanctions Database** | OpenSanctions (3.2L entities) | INTERPOL, OFAC, UN, FBI, EU |
-| **Panama Papers** | 814K entities, 771K officers, 33L relationships | – |
+| **Panama Papers** | 814K entities, 771K officers, 33L relationships | Offshore leaks integration |
 | **Knowledge Graph** | Neo4j (interactive visualization) | 2,847 nodes, 18,432 edges |
 | **Risk Score** | 0–100 with evidence chain | 98% accuracy on test set |
 
