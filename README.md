@@ -67,3 +67,9 @@ Risk Analysis Engine
             ↓
 
 Structured Investigation Report
+
+License
+
+InvestigatorAI Community Edition is licensed under AGPL-3.0.
+
+Certain trained models, datasets, and enterprise intelligence modules are proprietary and are not included in this repository.
